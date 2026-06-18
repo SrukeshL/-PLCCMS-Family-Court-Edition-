@@ -22,7 +22,24 @@ PLCCMS is an independent, educational, open-source case organization system. It 
 *Empowering parents. Supporting attorneys. Organizing cases. Protecting children.*
 
 </div>
+## Statutory Verification
 
+Although this application references Pennsylvania statutes, users must independently verify all laws, court rules, and deadlines before relying on any generated materials.
+
+Statutes, rules, forms, and procedures may change at any time.
+
+
+## Emergency Situations
+
+PLCCMS is not an emergency response system.
+
+If a child is in immediate danger:
+
+- Contact local law enforcement.
+- Contact child protective services.
+- Contact emergency services.
+
+Do not rely on this application during emergencies.
 ---
 
 ## 📌 Table of Contents
@@ -104,7 +121,7 @@ This application is specifically designed to make those 12 minutes count — ens
 | 🤖 **AI Integration** | Optional connection to Claude, ChatGPT, Gemini, or Copilot |
 | 🔐 **Security Tracking** | Optional Google Sheets webhook to track dashboard access when shared |
 | 🗄️ **Database Support** | Optional PostgreSQL or Oracle for institutional and court use |
-| 🏥 **Court System Integration** | API-ready for existing court management systems |
+| 🏥 **Court System Integration** | Designed so future integrations may be developed for existing court management systems |
 | 📄 **Pa. R.A.P. 124 Ready** | Documentation formatted per Pennsylvania appellate rules |
 
 ---
@@ -318,6 +335,15 @@ No data ever lost switching modes      →   All existing data preserved
 > ⚠️ Medical and financial records: physical copies only — never upload online.
 
 ---
+## Attorney Relationship Notice
+
+The Professional Conduct Reference module is educational.
+
+It is not intended to monitor, supervise, investigate, or evaluate attorneys.
+
+It is not a disciplinary tool.
+
+Its purpose is to improve communication, transparency, and understanding between clients and attorneys.
 
 ## ⚖️ ODC Professional Conduct Module
 
@@ -360,6 +386,21 @@ ODC inquiry letters show most complaints are poorly documented — missing timel
 
 ---
 
+## No Outcome Guarantee
+
+PLCCMS does not:
+
+- predict case outcomes;
+- recommend custody arrangements;
+- determine parental fitness;
+- evaluate credibility;
+- replace judicial discretion;
+- replace attorneys;
+- replace mediators;
+- replace court procedures.
+
+All custody decisions remain solely within the authority of the court.
+
 ## 🤖 AI Integration — Optional Processing Assistant
 
 > ⚠️ **AI tools are for data processing and validation assistance ONLY.**
@@ -369,6 +410,21 @@ ODC inquiry letters show most complaints are poorly documented — missing timel
 >
 > 🖥️ This tool is designed for self-service and runs locally on your own computer only.
 > Before making it available on the Internet, consult qualified cybersecurity and IT professionals.
+
+## AI Data Warning
+Users should assume that information submitted to third-party AI systems may be retained according to the provider's privacy policies.
+
+Do not submit:
+
+- Social Security numbers
+- driver's license numbers
+- bank account numbers
+- medical records
+- sealed court documents
+- passwords
+- API keys
+
+Users remain responsible for protecting sensitive information.
 
 ### Supported AI Tools
 
@@ -535,7 +591,7 @@ Optional tracking features when properly deployed:
 
 ---
 
-## 🏛️ Government & Court Use
+## 🏛️ Government / Court Use
 
 This project is released under **GNU GPL v3** — specifically designed to support free government and court adoption.
 
