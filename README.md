@@ -5,6 +5,8 @@
 
 > **"This tool is designed to help organize and increase efficiency while navigating through a custody case in family court."**
 
+PLCCMS is an independent, educational, open-source case organization system. It is not affiliated with, endorsed by, or approved by any court, government agency, or attorney disciplinary body. Its purpose is to help users organize custody-related information and improve collaboration among parents, attorneys, mediators, and legal aid organizations. All court procedures and custody decisions remain solely under the authority of the court.
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![PA Statute](https://img.shields.io/badge/PA%20Statute-23%20Pa.C.S.%20§%205328%20Act%2011%202025-darkblue)](https://www.palegis.us/statutes/consolidated/view-statute?txtType=HTM&ttl=23&div=0&chapter=53&section=28)
