@@ -1,0 +1,13 @@
+# Family Court Custody Dashboard — Python Requirements
+# Install with: pip install -r requirements.txt
+
+openpyxl>=3.1.0        # Excel file read/write
+pandas>=2.0.0          # Data processing
+jinja2>=3.1.0          # HTML templating (optional advanced use)
+
+# Optional — for PDF export (Pa. R.A.P. 124 formatted)
+# weasyprint>=60.0
+
+# Optional — Google Sheets integration
+# gspread>=5.0.0
+# google-auth>=2.0.0
