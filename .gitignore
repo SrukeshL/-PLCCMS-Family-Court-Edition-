@@ -1,0 +1,114 @@
+# ══════════════════════════════════════════════════════════════════════
+# PLCCMS — Parent/Lawyer Case Custody Management System
+# .gitignore — Protects ALL personal case data from being committed
+# ══════════════════════════════════════════════════════════════════════
+
+# ── GENERATED APPLICATION OUTPUT — NEVER COMMIT ───────────────────────
+# These files contain your personal case data
+output/
+family_court_dashboard.html
+admin_panel.html
+*_dashboard.html
+*_admin.html
+
+# ── PERSONAL EXCEL FILES — NEVER COMMIT ───────────────────────────────
+# Only the BLANK template is committed to GitHub
+# Any Excel file you have filled in must never be committed
+*_filled.xlsx
+*_my_case.xlsx
+*_case_*.xlsx
+my_*.xlsx
+party_a_*.xlsx
+party_b_*.xlsx
+merged_*.xlsx
+
+# ── CREDENTIALS & API KEYS — NEVER COMMIT ─────────────────────────────
+.env
+*.env
+.env.local
+.env.production
+config_private.json
+config_private.yaml
+webhook_config.json
+google_credentials.json
+service_account.json
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+api_keys.txt
+
+# ── CASE DOCUMENTS — NEVER COMMIT ─────────────────────────────────────
+# Evidence, medical, financial, legal documents
+evidence/
+documents/
+case_files/
+photos/
+videos/
+audio/
+medical/
+financial/
+sealed/
+confidential/
+restricted/
+attorney_docs/
+court_filings/
+odc_docs/
+
+# ── VISITOR / TRACKING LOGS — NEVER COMMIT ────────────────────────────
+visitor_log*.csv
+visitor_log*.json
+access_log*.csv
+tracking_*.json
+
+# ── PYTHON ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── OPERATING SYSTEM ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── EDITORS & IDEs ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── TEMPORARY FILES ───────────────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+logs/
+temp/
+tmp/
